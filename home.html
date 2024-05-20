@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><img src="assets\top button.png" alt="Logo" width="120px"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="assets\top button.png" alt="Logo" width="80px"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="works.html" onclick="toggleMenu()">Works</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img id="button" src="./assets/button.png" alt="Tushar pal's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p2">I'm <b>Tushar Pal</b>, a designer, developer
+          and illustrator based in India. My creations are specialized in both traditional and digital mediums.</p>
+        <div class="btn-container">
+          <a class="btn btn-color-1"
+          href="about.html"
+          > Learn More</a>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets\See How.png" alt="Cinque Terre" width="600" height="400">
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets\I Turn.png" alt="Cinque Terre" width="600" height="400">
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets\My Thoughts.png" alt="Cinque Terre" width="600" height="400">
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets\Into Creativity.png" alt="Cinque Terre" width="600" height="400">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="foot">Copyright &#169; 2024 Tushar Pal. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

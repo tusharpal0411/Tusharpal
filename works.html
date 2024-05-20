@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><img src="assets\top button.png" alt="Logo" width="120px"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="assets\top button.png" alt="Logo" width="80px"></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="works.html" onclick="toggleMenu()">Works</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="projects">
+      <p class="section__text__p1">Here are some</p>
+      <h1 class="title">Logo's</h1>
+      <p class="section__text__p1"></p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">  
+    <div class="responsive">
+      <div class="gallery">
+          <img src="assets\graphic-1.png" alt="Cinque Terre" width="600" height="400">
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+          <img src="assets\graphic-2.png" alt="Cinque Terre" width="600" height="400">
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+          <img src="assets\graphic-3.png" alt="Cinque Terre" width="600" height="400">
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+          <img src="assets\graphic-4.png" alt="Cinque Terre" width="600" height="400">
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+    />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse some of the</p>
+      <h1 class="title">Websites</h1>
+      <p class="section__text__p1"></p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">A Photographer's Portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tusharpal0411/Lens-Poetry'"
+              >
+                Github
+              </button>
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https;//github.com/'"
+              >
+                Live Demo
+              </button>-->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">A Designer's Portfolio</h2>
+            <div class="btn-container">
+             <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tusharpal0411/Tushar-Portfolio'"
+              >
+                Github
+              </button>
+               <!-- <a  class="btn btn-color-2 project-btn" href="#desktop-nav"> Live Demo</a>
+              --> 
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">A Social Club's Webpage</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/tusharpal0411/bbys'"
+              >
+                Github
+              </button>
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://bbys1990.github.io/Bhaluka/'"
+              >
+                Live Demo
+              </button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">See more about my</p>
+      <h1 class="title">Works</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href="https://pin.it/3LcgCLPHu "><img
+            src="./assets/pinterest.png"
+            alt="Pinterest Icon"
+            class="icon contact-icon email-icon"
+          /></a>
+        </div>
+        <div class="contact-info-container">
+          <a href="https://www.instagram.com/tusharrt?igsh=MXMyZW4wdWZnNGZobQ==">  <img
+            src="./assets/instagram.png"
+            alt="Instagram Icon"
+            class="icon contact-icon"
+          /></a>
+        </div>
+        <div class="contact-info-container">
+          <a href="https://www.facebook.com/0tushar.art?mibextid=ZbWKwL"> <img
+            src="./assets/facebook.png"
+            alt="Instagram icon"
+            class="icon contact-icon"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p id="foot">Copyright &#169; 2024 Tushar Pal. All Rights Reserved.</p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>  
